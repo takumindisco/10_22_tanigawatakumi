@@ -76,10 +76,7 @@ if ($status==false) {
                         <a class="nav-link" href="top.php">トップページ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="select.php">データ一覧</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php">データ登録</a>
+                        <a class="nav-link" href="index.php">掲示板</a>
                     </li>
                     <?php if ($_SESSION['kanri_flg'] == 1) { ?>
                     <li class="nav-item">

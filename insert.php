@@ -39,7 +39,7 @@ if (isset($_FILES['upfile']) && $_FILES['upfile']['error'] ==0) {
 
 } else {
     // ファイルをアップしていないときの処理
-    exit('画像が送信されていません');
+    // exit('画像が送信されていません');
 }
 
 //DB接続
@@ -61,5 +61,5 @@ if ($status==false) {
     exit('sqlError:'.$error[2]);
 } else {
     //５．index.phpへリダイレクト
-    header('Location: select.php');  //Location:の後は半角スペース必須
+    header('Location: index.php');  //Location:の後は半角スペース必須
 }

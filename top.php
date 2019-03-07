@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('functions_select.php');
+include('functions.php');
 chk_ssid();
 ?>
 
@@ -33,12 +33,7 @@ chk_ssid();
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="select.php">データ一覧</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php">データ登録</a>
+                        <a class="nav-link" href="index.php">掲示板</a>
                     </li>
                 </ul>
                 <?php if ($_SESSION['kanri_flg'] == 1) { ?>
@@ -65,10 +60,7 @@ chk_ssid();
     <div class="">
         <ul class="">
             <li class="list-group-item">
-                <a class="" href="select.php">データ一覧</a>
-            </li>
-            <li class="list-group-item">
-                <a class="" href="index.php">データ登録</a>
+                <a class="" href="index.php">掲示板</a>
             </li>
             <?php if ($_SESSION['kanri_flg'] == 1) { ?>
             <li class="list-group-item" id="admin_menu">

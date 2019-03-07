@@ -31,9 +31,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="user_index.php">ユーザー登録</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="select.php">チャット</a>
-                    </li>
                 </ul>
             </div>
         </nav>
